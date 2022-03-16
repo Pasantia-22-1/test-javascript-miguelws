@@ -3,28 +3,25 @@
 ? Intenta crear un comentario
 ================================================================================================================================================== */ 
 
-
-
-
+//una sola linea
+/*
+varias lineas
+*/
 
 /* ==================================================================================================================================================
 *  Declara variables de JavaScript 
 ? Declara una variable'myName'
 ================================================================================================================================================== */ 
 
-
-
-
+var myname;
 
 /* ==================================================================================================================================================
 *   Almacenar valores con el operador de asignación(=) 
 ?   Declara una variable 'a' y debajo asígnale el valor '7'
 ================================================================================================================================================== */ 
 
-
-
-
-
+var a;
+a = 7;
 
 /* ==================================================================================================================================================
 *   Asigna el valor de una variable a otra variable 
@@ -32,21 +29,16 @@
 ?   Declara una variable 'b' y asígnale el contenido de 'a'
 ================================================================================================================================================== */ 
 
-
-
-
-
-
-
+var a;
+a = 7;
+var b = a;
 
 /* ==================================================================================================================================================
 *   Inicializa variables con el operador de asignación 
 ?   Define una variable 'a' con 'var' e inicialízala con un valor de '9'
 ================================================================================================================================================== */
 
-
-
-
+var a = 9;
 
 /* ==================================================================================================================================================
 *   Comprendiendo las variables no inicializadas 
@@ -54,39 +46,32 @@
 ?   Inicializa las tres variables con '5', '10' y "I am a" respectivamente para que no sean undefined.
 ?   Utiliza console.log() para ver los resultados
 ================================================================================================================================================== */ 
+
 // Cambia solo el código debajo de esta línea
-
-
+var a;
+var b;
+var c;
+a = 5;
+b = 10;
+c = "I am a";
 
 // Cambia solo el código encima de esta línea
-
 a = a + 1;
 b = b + 5;
 c = c + " String!";
-
-
-
-
-
-
+console.log(a)
+console.log(b)
+console.log(c)
 
 /* ==================================================================================================================================================
 *   Comprendiendo la sensibilidad de mayúsculas en las variables  
 ?   Crea 3 variables correctamente utilizando camelCase: 'studlycapvar' 'properamelase' 'titlecaseover'
 ?   Asignale los valores '10', 'A String', '9000'
 ================================================================================================================================================== */ 
+
 // Declaración de variables
-
-
-
-
+//no he utilizado camelCase
 // Asignación de variables
-
-
-
-
-
-
 
 /* ==================================================================================================================================================
 *   Suma dos números con JavaScript
@@ -94,10 +79,8 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
-
-
-
+var sum = 5 + 9;
+console.log(sum)
 
 /* ==================================================================================================================================================
 *   Resta un número de otro con JavaScript
@@ -105,10 +88,8 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
-
-
-
+var difference = 3 - 6
+console.log(difference)
 
 /* ==================================================================================================================================================
 *   Multiplica dos números con JavaScript
@@ -116,10 +97,8 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
-
-
-
+var product = 4 * 7;
+console.log(product)
 
 /* ==================================================================================================================================================
 *   Divide un número entre otro con JavaScript   
@@ -127,10 +106,8 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
-
-
-
+var quotient = 8 / 2;
+console.log(quotient)
 
 /* ==================================================================================================================================================
 *   Incrementa un número con JavaScript 
@@ -139,11 +116,9 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
-
-
-
-
+var myvar = 87;
+myvar++;
+console.log(myvar)
 
 /* ==================================================================================================================================================
 *   Decrementa un número con JavaScript 
@@ -152,20 +127,16 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
-
-
-
-
+var myvar = 11;
+myvar--;
+console.log(myvar)
 
 /* ==================================================================================================================================================
 *   Crea números decimales con JavaScript 
 ?   Crea una variable 'myDecimal' y dale un valor decimal con una parte fraccional
 ================================================================================================================================================== */ 
 
-
-
-
+var mydecimal = 1/3;
 
 /* ==================================================================================================================================================
 *   Multiplica dos números decimales con JavaScript
@@ -173,10 +144,8 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
-
-
-
+var product 0.5 * 10;
+console.log(product)
 
 /* ==================================================================================================================================================
 *   Divide un decimal entre otro con JavaScript
@@ -184,10 +153,8 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
-
-
-
+var quotient = 3.8 / 1.7;
+console.log(quotient)
 
 /* ==================================================================================================================================================
 *   Encuentra un resto en JavaScript
@@ -195,90 +162,80 @@ c = c + " String!";
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
-
-
-
+var quotient = 3.4 - 1.2;
+console.log(quotient)
 
 /* ==================================================================================================================================================
 *   Asignación compuesta con adición aumentada
 ?   Convierte las asignaciones de 'a', 'b' y 'c' para que utilicen el operador '+='.
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
+
 var a = 3;
 var b = 17;
 var c = 12;
 
 // Cambia solo el código debajo de esta línea
-a = a + 12;
-b = b + 9;
-c = c + 7;
+a += 12;
+b += 9;
+c += 7;
 console.log(a)
 console.log(b)
 console.log(c)
-
-
-
 
 /* ==================================================================================================================================================
 *   Asignación compuesta con resta aumentada
 ?   Convierte las tareas de 'a', 'b', y 'c' para utilizar el operador '-='.
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
+
 var a = 11;
 var b = 9;
 var c = 3;
 
 // Cambia solo el código debajo de esta línea
-a = a - 6;
-b = b - 15;
-c = c - 1;
+a -= 6;
+b -= 15;
+c -= 1;
 console.log(a)
 console.log(b)
 console.log(c)
-
-
-
 
 /* ==================================================================================================================================================
 *   Asignación compuesta con multiplicación aumentada
 ?   Convierte las tareas de 'a', 'b', y 'c' para utilizar el operador '*='.
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
+
 var a = 5;
 var b = 12;
 var c = 4.6;
 
 // Cambia solo el código debajo de esta línea
-a = a * 5;
-b = b * 3;
-c = c * 10;
+a *= 5;
+b *= 3;
+c *= 10;
 console.log(a)
 console.log(b)
 console.log(c)
-
-
-
 
 /* ==================================================================================================================================================
 *   Asignación compuesta con división aumentada
 ?   Convierte las tareas de 'a', 'b', y 'c' para utilizar el operador '/='.
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
+
 var a = 48;
 var b = 108;
 var c = 33;
 
 // Cambia solo el código debajo de esta línea
-a = a / 12;
-b = b / 4;
-c = c / 11;
+a /= 12;
+b /= 4;
+c /= 11;
 console.log(a)
 console.log(b)
 console.log(c)
-
-
-
 
 /* ==================================================================================================================================================
 *   Declara variables de cadena
@@ -287,12 +244,9 @@ console.log(c)
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
-
-
-
-
-
+var myfirst_name = "Miguel";
+var mylast_name = "Vazquez";
+console.log(myfirst_name.concat(" ", mylast_name))
 
 /* ==================================================================================================================================================
 *   Escapa comillas literales en cadenas
@@ -300,33 +254,25 @@ console.log(c)
 ?   I am a "double quoted" string inside "double quotes".
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
+
 var myStr = ""
-
-
-
-
 
 /* ==================================================================================================================================================
 *   Cita cadenas con comillas simples
 ?   Utiliza comillas simples para rodear tu string para no usar '\'
 ?   <a href="#" target="_blank">Link</a>
 ================================================================================================================================================== */ 
+
 var myStr = ""
-
-
-
-
 
 /* ==================================================================================================================================================
 *   Concatena cadenas con el operador "más"
 ?   usa el operador '+' para concatenar dos strings
 ?   utiliza console.log() para ver el resultado 
 ================================================================================================================================================== */ 
-var myStr = ""
 
-
-
-
+var myStr = "Hola " + "mundo"
+console.log(myStr)
 
 /* ==================================================================================================================================================
 *   Concatena cadenas con el operador "más igual" 
@@ -334,11 +280,9 @@ var myStr = ""
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
-
-
-
-
+var first = "Java";
+var last = "script";
+console.log(first += last)
 
 /* ==================================================================================================================================================
 *   Construye cadenas con variables
@@ -347,11 +291,9 @@ var myStr = ""
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
-
-
-
-
+var myname = "Miguel";
+var cadena = "Nombre: " + myname + " Vazquez";
+console.log(cadena)
 
 /* ==================================================================================================================================================
 *   Agrega variables a cadenas
@@ -360,12 +302,10 @@ var myStr = ""
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
- 
-
-
-
-
+var cadena1 = " World";
+var cadena2 = "Hello";
+cadena2 += cadena1;
+console.log(cadena2)
 
 /* ==================================================================================================================================================
 *   Encuentra la longitud de una cadena
@@ -375,13 +315,10 @@ var myStr = ""
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
-
-
-
-
-
-
+var last_name_length = 0;
+var last_name = "Lovelace";
+last_name_length += last_name.length;
+console.log(last_name_length)
 
 /* ==================================================================================================================================================
 *   Utiliza la notación de corchetes para encontrar el primer carácter en una cadena
@@ -391,35 +328,30 @@ var myStr = ""
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
 
-
-
-
-
-
-
-
+var first_letterof_lastname = "";
+var last_name = "Lovelace";
+first_letterof_lastname = last_name[0];
+console.log(first_letterof_lastname)
 
 /* ==================================================================================================================================================
 *   Comprende la inmutabilidad de las cadenas
 ?   Corrige la asignación de myStr para que contenga el valor de cadena 'Hello World' 
 ================================================================================================================================================== */ 
+
 var myStr = "Jello World";
+
 // Cambia solo el código debajo de esta línea
-
-
-
-
+myStr.replace("J", "H");
 
 /* ==================================================================================================================================================
 *   Utiliza la notación de corchetes 
 ?   Crea una variable'thirdLetterOfLastName' esta debe ser igual a la tercera letra de la variable 'lastName'
 ================================================================================================================================================== */ 
+
 var lastName = "Lovelace";
+
 // Cambia solo el código debajo de esta línea
-
-
-
-
+var third_letterof_lastname = lastName[2];
 
 /* ==================================================================================================================================================
 *   Utiliza la notación de corchetes para encontrar el último carácter en una cadena
@@ -427,11 +359,12 @@ var lastName = "Lovelace";
 ?   Debes usar '.length' y no puedes usar numeros positivos 
 ?   utiliza console.log() para ver el resultado
 ================================================================================================================================================== */ 
+
 var lastName = "Lovelace";
 
 // Cambia solo el código debajo de esta línea
-var lastLetterOfLastName = ""
-
+var lastLetterOfLastName = lastName[lastName.length - 1];
+console.log(lastLetterOfLastName)
 
 /* ==================================================================================================================================================
 *   Lista de compras
@@ -456,13 +389,10 @@ var lastLetterOfLastName = ""
 ?   Llama a la función.
 ================================================================================================================================================== */ 
 
-
-
-
-  
-
-
-
+function reusable_function(){
+  console.log("Hi World");
+}
+reusable_function();
 
 /* ==================================================================================================================================================
 *   Pasa valores a las funciones utilizando argumentos
@@ -470,28 +400,24 @@ var lastLetterOfLastName = ""
 ?   Llama a la función con dos números como argumentos.
 ================================================================================================================================================== */ 
 
-
-
-
-
-
-
-
+function function_withargs(n1, n2){
+  console.log(n1 + n2);
+}
+function_withargs(2, 3);
 
 /* ==================================================================================================================================================
 *   Ámbito global y funciones
 ?   Usando 'var', declara una variable global llamada 'myGlobal' fuera de cualquier función. Inicialízala con un valor de '10'.
 ?   Dentro de la función 'fun1', asigna '5' a 'oopsGlobal' sin usar la palabra clave 'var'.
 ================================================================================================================================================== */ 
+
 // Declara la variable myGlobal debajo de esta línea
-
-
-function fun1() {
-    // Asigna 5 a oopsGlobal aquí
-    
+var myGlobal = 10;
+function fun1(){
+ myGlobal = 5;    
 }
-// Cambia solo el código encima de esta línea  
 
+// Cambia solo el código encima de esta línea  
 function fun2() {
     var output = "";
     if (typeof myGlobal != "undefined") {
@@ -505,9 +431,6 @@ function fun2() {
 fun1()
 fun2()
 
-
-
-
 /* ==================================================================================================================================================
 *   Ámbito global vs. local en funciones
 ?   Añade una variable local a la función 'myOutfit' para sobrescribir el valor de 'outerWear' con la cadena 'sweater'. 
@@ -515,33 +438,27 @@ fun2()
 var outerWear = "T-Shirt";
 
 function myOutfit() {
-  // Cambia solo el código debajo de esta línea
-
+ // Cambia solo el código debajo de esta línea
+ outerWear = "Hola";
  
-  
   // Cambia solo el código encima de esta línea
   return outerWear;
 }
 
 myOutfit();
 
-
-
-
 /* ==================================================================================================================================================
 *  Devuelve un valor de una función utilizando "Return" 
 ?  Crea una función 'timesFive' que acepte un argumento, lo multiplique por '5' y devuelva el nuevo valor.
 ?  Crea una variable 'Answer' y usala para ver el resultado
 ================================================================================================================================================== */ 
+
 function timesFive(num){
     return num * 5;
 }
 
 var answer = timesFive(2)
 console.log(answer)
-
-
-
 
 /* ==================================================================================================================================================
 *  Comprendiendo el valor indefinido devuelto por una función 
@@ -550,12 +467,6 @@ console.log(answer)
 ================================================================================================================================================== */ 
 var sum = 0;
 // Cambia solo el código debajo de esta línea
-
-
-
-
-
-
 
 
 
